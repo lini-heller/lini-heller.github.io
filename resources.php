@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Resources: Fantastic Feral Felines </title>
+  <meta name="description" content="Provides information and links to resources pertaining to feral cats">
+  <link rel="stylesheet" media="screen" href="css/style.css">
+  <link rel="stylesheet" media="print" href="css/print.css">
+</head>
+
+<div class="container">
+
+<header class="banner">
+
+<h1>Fantastic Feral Felines</h1>
+
+<img src="images/catsrow100x57.jpg" width="100" height="57" alt="Silhouette of cat behind two smaller cats.">
+
+</header>
+
+<nav class="mainmenu">
+   <ul>
+      <li><a href="index.php">HOME</a></li>
+      <li><a href="aboutus.php">ABOUT US</a></li>
+	  <li><a href="9livesinfo.php">9 LIVES</a></li>
+	  <li><a href="resources.php">RESOURCES</a></li>
+	  <li><a href="tnrinfo.php">TNR INFO</a></li>
+	  <li><a href="adoption.php">CAT ADOPTION</a></li>
+   </ul>
+</nav>
+
+<main>
+
+<h2>Resources</h2>
+
+	<h3>Trap-Neuter-Return Equipment</h3>
+	
+	<p>While we are happy to loan out humane traps, wooden sticks with cords attached, and other TNR equipment, anyone interested in helping 9 Lives may want to invest in a trap. Owning ones own trap can speed up the process of catching a kitty as 9 Lives lacks central storage space. So if a trap is needed, it often involves one of our volunteer's fetching one and getting it to you. The more of our volunteers who have traps, the faster we can react to urgent calls for assistance.</p> 
+	<p>Here are some of the humane traps that we enjoy working with. Personally, I like the traps with two access points, as it makes it easier for us to bait the trap if one can open the "back". The <a href="https://www.trucatchtraps.com/" target="_blank" title="Trucatch Traps Website">Trucatch Traps website</a> also offers helpful tips on how to work with their brand of traps.</p>
+	
+	<a href="https://gemplers.com/products/live-trap-with-sliding-rear-door-36l-x-11w-x-12h?currency=USD&variant=21170246844505&utm_medium=cpc&utm_source=google&utm_campaign=Google%20Shopping&utm_content=https://gemplers.com/products/live-trap-with-sliding-rear-door-36l-x-11w-x-12h%3Fcurrency%3DUSD%26variant%3D21170246844505%26utm_medium%3Dcpc%26utm_source%3Dgoogle%26utm_campaign%3DGoogle%2520Shopping&utm_term=shopify_US_2042885046361_21170246844505&gclid=CjwKCAiAv9ucBhBXEiwA6N8nYNV3nI6l1-yHMtrdvMPql8ytQwRkpi9IYBgqN-BmwIBBB0O_y3p3YRoCAK8QAvD_BwE" target="_blank" title="Link to purchase 2-door humane trap">2-door Humane Trap by Safeguard on Gempler.com</a>
+	
+	<a href="https://www.trucatchtraps.com/30-fcd-fat-cat" target="_blank" title="Link to Trucatch 2-door humane trap">2-door Humane Trap by Trucatch</a>
+	
+	<h3>DYI Winter Shelter for Strays and Feral Community Cats</h3>
+	
+	<p>One of the best resources I have consulted, is <a href="https://alleycatadvocates.org" target="_blank" title="Alley Cats Advocates Website">the Alley Cats Advocates website</a>, including their DYI tutorials on how to build <a href="https://alleycatadvocates.org/communitycat-care-center/creating-winter-shelters/" target="_blank" title="Alley Cats Advocates winter shelters">winter shelters</a> for strays and community feral cats.</p>
+	
+	<h3>How to Bring Home Your New Furry Friend</h3>
+	
+	<p>Congratulations on having decided to adopt one of our rescue kitties. You may be wondering how to make the transition easiest for your new furry friend as well as on your house and household, including other family members and pets. I liked reading <em>Helping your Cat Adjust to a New Home</em> which can be found on the <a href="https://www.paws.org/resources/helping-your-cat-adjust/" target="_blank" title="Paws website article on brining cat home">Paws website.</a></p>
+	<p>Most of the time, the key is patience and quiet. Starting small goes a long way. Some of the fosters we took in that eventually came to mingle with our other kitties, would always know that they could go back into their safe place if things got too much for them. Foxy, who spent two weeks with us when she was injured before we later adopted her still remembers and love to use our pantry because this is where she spent most of her initial injured time with us. Well, I also admit that she loves the proximity of the pantry to the fridge which contains at least one jar of Gerber baby food which she loves so much. The Gerber baby food has been a huge success for bonding with Foxy who was definitely a bit afrais of me in the beginning. But also know if they still feel stressed by their surroundings, they may not take treats from you. All you can do then, is sit quietly with them in their room/space and let them come to you when they are ready.</p>
+
+</main>
+
+<aside class="leftsidebar">
+
+<h2>Page Menu</h2>
+
+<ul>
+<li>Trap-Neuter-Return Equipment.</li>
+<li>DYI Winter Shelter for Cats</li>
+<li>How to Bring Home Your New Furry Friend.</li>
+</ul>
+
+</aside>
+
+<footer class="site-footer">
+
+  <?php include('includes/footer.php');?>
+
+</footer>
+	
+</div> <!-- end of container div -->
+</html>

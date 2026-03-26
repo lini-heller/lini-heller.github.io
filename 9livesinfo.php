@@ -1,0 +1,383 @@
+<?php include('includes/processfoster.php');?>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>9 Lives Cat Rescue: Fantastic Feral Felines </title>
+  <meta name="description" content="Learn about 9 Lives Cat Rescue and how you can support them.">
+  <link rel="stylesheet" media="screen" href="css/style.css">
+  <link rel="stylesheet" media="print" href="css/print.css">
+</head>
+
+<div class="container">
+
+<header class="banner">
+
+<h1>Fantastic Feral Felines</h1>
+
+<img src="images/catsrow100x57.jpg" width="100" height="57" alt="Silhouette of cat behind two smaller cats.">
+
+</header>
+
+<nav class="mainmenu">
+   <ul>
+      <li><a href="index.php">HOME</a></li>
+      <li><a href="aboutus.php">ABOUT US</a></li>
+	  <li><a href="9livesinfo.php">9 LIVES</a></li>
+	  <li><a href="resources.php">RESOURCES</a></li>
+	  <li><a href="tnrinfo.php">TNR INFO</a></li>
+	  <li><a href="adoption.php">CAT ADOPTION</a></li>
+   </ul>
+</nav>
+
+<main>
+
+<h2 id="beginnings">How 9 Lives Cat Rescue Began in Oxford, Mississippi</h2>
+
+<p>The no-kill 9 Lives Cat Rescue Group of Oxford MS is a welcoming place for cats and the people who love them. Since its foundation in 2006, it has provided care and compassion to stray and surrendered animals in Lafayette, Mississippi and surrounding areas. We are a 501(C)3 group, which allows your donations to be tax deductible. We spay and neuter all of the cats that come through our group before they leave us for new homes. We also are involved in community outreach to help educate the community on the importance of vaccinating, spaying and neutering their pets. We strongly support the non-lethal TNR (Trap-Neuter-Return) method for feral/unsocialized cats. Please get in contact with us if you need help with feral/wild cats and to request <a href="tnrinfo.php#tnr-assistnace">TNR assistance</a>. Our adoption fee is for most of our domesticated cats is $70.00. This includes the spay/neuter surgery, which will be done before any animal leaves us. It also includes rabies and FVRCP vaccinations, deworming and flea treatment if needed. The price for a barn cat varies between $10 and $40. The fee covers the spay/neuter surgery, rabies vaccination, deworming and flea treatment if needed. Please get in contact with us for details. You can see that the adoption fee is not very high when you start comparing what all the medical costs would be at the vets. We require an application and adoption questionnaire to be completed as well. Read below about other ways we try to help cats in our community and how you may be able to assist us.</p>
+
+	
+<h3 id="volunteer">Want to Help 9 Lives?</h3>
+
+	<h4 id="spay-day">Spay Day</h4>
+	<p>Once or twice a year, we organize a spay day which aims to assist people not only with community and feral cats but also with their domesticated cats. The spay day is sponsored by donations so that surgeries can be offered for $45.00. Local veterinarians and other volunteers donate their time on this day.</p>
+
+	<h4 id="monitor">Monitoring Traps</h4>
+	<p>We never know where the next trapping location will be--except if we are trapping at one of the monitored feeding stations. But even then we appreciate any help with setting and monitoring traps. If we do not remain at the trapping location, we do like to check the trap every 2 hours because several things can happen. If we check regularly, we can get the animal faster care and less time spent in the trap is always good. It also means we can cover the trap to reduce cat's stress level. At time, the mechanism in a trap may spring even though no cat or other animal is in the trap, so we will need to set the trap again. We try to put traps in safe spaces away from ants or direct sun, so checking a trap frequently can ensure that no ants have gotten into the bait or checking that the trap is still in a good spot. One time this trapper caught a baby possum instead of the intended kitty, so checking the trap a releasing unwanted captures is important.</p>
+	
+	<h4 id="guardian">Becoming a Guardian for a Feral Colony or Community Cats</h4>
+	<p>Not all cats can be or should be domesticated. There will always be feral cats or community cats, but we can make a difference to their lives by maintaining feeding stations and monitoring them and the cats that frequent them as guardians. Feeding stations ensure that the cats have a place to go to and thus give us access to them at a specific location if we see an injured animal. This allows us to be more efficient when trapping feral cats in our community and such supervision of feral cat colonies overall improves the cats' health as a recent study shows.</p>
+		<div style="overflow-x:auto;">
+<table class="cathealth">
+	<caption>Table 1: Descriptive statistics on the 5-component visual health-related welfare assessment findings</caption>
+	<thead>
+		<tr>
+			<th>Health Condition</th>
+			<th>Severity</th>
+			<th>Managed Strays (n=210)</th>
+			<th>Unmanged Stray (n=253)</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td rowspan="4">Body Condition</td>
+			<td>Emaciated</td>
+			<td>1 (0.5%)</td>
+			<td>10 (4.0%)</td>
+		</tr>
+		
+		<tr>
+			<td>Thin</td> 
+			<td>34 (16.2%)</td>
+			<td>63 (24.9%)</td>
+		</tr>
+		
+		<tr>
+			<td>Ideal</td>
+			<td>134 (63.8%)</td>
+			<td>163 (64.4%)</td>
+		</tr>
+		
+		<tr>
+			<td>Overweight</td>
+			<td>35 (16.7%)</td>
+			<td>12 (4.7%)</td>
+		</tr>
+		
+		<tr>
+			<td rowspan="4">Coat Condition</td>
+			<td>Poor</td>
+			<td>0 (0%)</td>
+			<td>21 (8.3%)</td>
+		</tr>
+		
+		<tr>
+			<td>Fair</td>
+			<td>27 (12.9%)</td>
+			<td>70 (27.7%)</td>
+		</tr>
+		
+		<tr>
+			<td>Good</td>
+			<td>140 (66.7%)</td>
+			<td>155 (61.3%)</td>
+		</tr>
+		
+		<tr>
+			<td>Excellent</td>
+			<td>29 (13.8%)</td>
+			<td>5 (2%)</td>
+		</tr>
+		
+		<tr>
+			<td rowspan="4">Nose and Eye Discharge</td>
+			<td>None</td>
+			<td>179 (85.2%)</td>
+			<td>206 (81.4%)</td>
+		</tr>
+		
+		<tr>
+			<td>Mild</td>
+			<td>16 (7.6%)</td>
+			<td>30 (11.9%)</td>
+		</tr>
+		
+		<tr>
+			<td>Moderate</td>
+			<td>4 (1.9%)</td>
+			<td>14 (5.5%)</td>
+		</tr>
+		
+		<tr>
+			<td>Severe</td>
+			<td>0 (0%)</td>
+			<td>3 (1.2%)</td>
+		</tr>
+		
+		<tr>			
+			<td rowspan="4">Ear Crusting Score</td>
+			<td>None</td>
+			<td>186 (89%)</td>
+			<td>223 (88.1%)</td>
+		</tr>
+		
+		<tr>
+			<td>Mild</td>
+			<td>9 (4.3%)</td>
+			<td>23 (9.1%)</td>
+		</tr>
+		
+		<tr>
+			<td>Moderate</td>
+			<td>1 (0.5%)</td>
+			<td>5 (2.0%)</td>
+		</tr>
+		
+		<tr>
+			<td>Severe</td>
+			<td>0 (0%)</td>
+			<td>5 (2%)</td>
+		</tr>
+		
+		<tr>
+			<td rowspan="4">Injury Score</td>
+			<td>None</td>
+			<td>191 (91.0%)</td>
+			<td>234 (92.5%)</td>
+		</tr>
+		
+		<tr>
+			<td>Mild</td>
+			<td>9 (4.3%)</td>
+			<td>10 (4%)</td>
+		</tr>
+		
+		<tr>
+			<td>Moderate</td>
+			<td>3 (1.4%)</td>
+			<td>6 (2.4%)</td>
+		</tr>
+		
+		<tr>
+			<td>Severe</td>
+			<td>3 (1.4%)</td>
+			<td>1 (0.4%)</td>
+		</tr>
+	</tbody>
+	
+	<tfoot>
+		<tr>
+		<td colspan="4">Adapted from Zito, S., Walker, J., Gates, C. M., & Dale, A. (2019). A preliminary description of companion cat, managed stray cat, and unmangaged stray cat welfare in Auckland, New Zealand using a 5-component assessment scale.<em>Frontiers in Verterinary Science</em>, <em>6</em>, pp. 1-10). doi: 10.3389/fvets.2019.0040</td>
+		</tr>
+	</tfoot>
+</table>
+</div>
+	
+	<h4 id="petsmart">Petsmart Kitties Care</h4>
+		<p>Rescue cats that are not in foster homes get housed at the <a href="https://www.petsmart.com/stores/us/ms/oxford-store2148.html?gclid=Cj0KCQiAnNacBhDvARIsABnDa6-GXuuYWW1lhoIsIqBsxsRMQgwSm5fhAZO4OwpWTU5oJweY-7Q_tj0aAuqwEALw_wcB" title="Petsmart Oxford, MS" target="_blank">local Petsmart</a> in Oxford. We always look for volunteers who will go there at certain times to clean out the cages and litter boxes, refill water and food bowls, and during all of that allow the cats to roam in the backroom. For all your cleaning efforts, you get rewarded by the kitties with lots of love, cuddles, and playtime. Usually, the cleaning takes up to an hour, and it is up to you how much more time you want to spent with our furry friends.</p> 
+	
+	
+	<h4 id="foster">Fostering</h4>
+		<p>We are always in need of people who are willing to open their home for one or some cats for some of the time till we can find them their permanent purrfect home.</p> If you are interested in helping out as a foster, please fill in the <a href="forms.php#foster-application">Foster Application and Questionaire</a>
+	
+<h3 id="foster-application">Application to Foster</h3>
+
+<p> In submitting this foster application to 9 Lives Cat Rescue, I agree that I will care for the animal providing necessary food, water, and shelter. I agree this is temporary, and upon adoption or transport, will return upon request the animal at a scheduled date/place by a 9 Lives Cat Rescue representative. I understand that by fostering, I will not hold 9 Lives Cat Rescue or any affiliations with this organization liable for any damages, medical cost, or injuries that may be caused by fostering.</p>
+
+<?php print $formMessage;?>
+<form method="post">
+
+<fieldset>
+
+<legend>Your Contact Information</legend>
+
+<label for="fo-first-name">First Name</label>
+<input id="fo-first-name" name="fo-first-name" type="text" required>
+<label for="fo-last-name">Last Name</label>
+<input id="fo-last-name" name="fo-last-name" type="text" required>
+<label for="fo-street-address">Street Address</label>
+<input id="fo-street-address" name="fo-street-address" type="text" required>
+<label for="fo-city">City</label>
+<input id="fo-city" name="fo-city" type="text" required>
+<label for="fo-zip-code">Zip/Postal Code</label>
+<input id="fo-zip-code" name="fo-zip-code" type="text" required>
+<label for="fo-state">State/Province</label>
+<input id="fo-state" name="fo-state" type="text" required>
+<label for="fo-county">County</label>
+<input id="fo-county" name="fo-county" type="text" required>
+<label for="fo-phone-number">Phone Number</label>
+<input id="fo-phone-number" name="fo-phone-number" type="text" required>
+<label for="fo-email">Email</label>
+<input id="fo-email" name="fo-email" type="text" required>
+</fieldset>
+
+<fieldset>
+<legend>What is your age group?</legend>
+<label>0-20 years <input type="radio" name="age-group-fo" value="0to20"></label>
+<label>21-25 years <input type="radio" name="age-group-fo" value="21to25"></label>
+<label>26-35 years <input type="radio" name="age-group-fo" value="26to35"></label>
+<label>36-59 years <input type="radio" name="age-group-fo" value="36to59"></label>
+<label>60+ years <input type="radio" name="age-group-fo" value="60+"></label>
+</fieldset>
+<fieldset>
+<legend>Do you rent or own your home?</legend>
+<label>Rent <input type="radio" name="rent-or-own-fo" value="rent"></label>
+<label>Own <input type="radio" name="rent-or-own-fo" value="own"></label>
+</fieldset>
+
+<fieldset>
+<legend>Who do you live with? Choose all that apply</legend>
+<label for="fo-parents">parents</label>
+<input type="checkbox" id="fo-parents" name="fo-livingconditions[]" value="parents">
+<label for="fo-children">children</label>
+<input type="checkbox" id="fo-children" name="fo-livingconditions[]" value="children">
+<label for="fo-roommates">roommates</label>
+<input type="checkbox" id="fo-roommates" name="fo-livingconditions[]" value="roommates">
+<label for="fo-significant-other">Significant other/spouse</label>
+<input type="checkbox" id="fo-significant-other" name="fo-livingconditions[]" value="significant-other">
+<label for="fo-other-pets">Other pets</label>
+<input type="checkbox" id="fo-other-pets" name="fo-livingconditions[]" value="other-pets">
+<label for="fo-alone">Alone</label>
+<input type="checkbox" id="fo-alone" name="fo-livingconditions[]" value="alone">
+</fieldset>
+
+<fieldset>
+<legend>Pet Allergies</legend>
+<label for="allergies-fo">Do any household members suffer from pet allergies?</label>
+<select name="allergies-fo" id="allergies-fo">
+    <option value="">--Please choose an option--</option>
+    <option value="no">No</option>
+    <option value="cat">Cat</option>
+    <option value="dog">Dog</option>
+    <option value="catanddog">Cat and Dog</option>
+</select>
+</fieldset>
+
+<fieldset>
+<legend>Does everyone in your household agree with you fostering animal(s)?</legend>
+<label>Yes <input type="radio" name="foster" value="yes"></label>
+<label>No <input type="radio" name="foster" value="no"></label>
+<label>Unknown <input type="radio" name="foster" value="unknown"></label>
+</fieldset>
+
+<fieldset>
+<legend>What animals are already in your household including your roommates animal(s).</legend>
+<label for="house-animals">Household Animals</label>
+<textarea id="house-animals" name="house-animals"></textarea> 
+</fieldset>
+
+<fieldset>
+<legend>What type of cat(s) can you foster?</legend>
+
+<label for="bottle-feeder">I can bottle-feed kitten(s) every 2 hrs</label>
+<input type="checkbox" id="bottle-feeder" name="foster-type[]" value="bottle-feeder">
+
+<label for="weaned">Weaned kitten(s) (older than 6 weeks)</label>
+<input type="checkbox" id="weaned" name="foster-type[]" value="weaned">
+
+<label for="senior-cat">Senior cat(s)</label>
+<input type="checkbox" id="senior-cat" name="foster-type[]" value="senior-cat">
+
+<label for="shy-cat">Shy cats that need socialization</label>
+<input type="checkbox" id="shy-cat" name="foster-type[]" value="shy-cat">
+
+<label for="mom-kittens">Mama with nursing kittens</label>
+<input type="checkbox" id="mom-kittens" name="foster-type[]" value="mom-kittens">
+
+<label for="adults">Adult cats</label>
+<input type="checkbox" id="adults" name="foster-type[]" value="adults">
+
+<label for="spicy-cats">"Spicy cats" that need socialization</label>
+<input type="checkbox" id="spicy-cats" name="foster-type[]" value="spicy-cats">
+
+<label for="med-cats">Cats needing (oral) medication</label>
+<input type="checkbox" id="med-cats" name="foster-type[]" value="med-cats">
+</fieldset>
+
+<fieldset>
+
+<legend>How long can you foster cat(s)?</legend>
+
+<label for="till-weaned">until weaned (bottle babies are often rotated every few days between several dedicated fosters to avoid burn out)</label>
+<input type="checkbox" id="till-weaned" name="foster-time[]" value="till-weaned">
+
+<label for="several-weeks">Several weeks (until adopted or sent to Petsmart)</label>
+<input type="checkbox" id="several-weeks" name="foster-time[]" value="several-weeks">
+
+<label for="two-weeks">Two weeks only</label>
+<input type="checkbox" id="two-weeks" name="foster-time[]" value="two-weeks">
+
+<label for="other-time">Other (Please describe in comment section)</label>
+<input type="checkbox" id="other-time" name="foster-time[]" value="other-time">
+</fieldset>
+
+<fieldset>
+<legend>Accomodation for Pet</legend>
+<label for="night-place">Where will this cat spend the night?</label>
+<textarea id="night-place" name="night-place"></textarea>
+
+<label for="day-place">Where will this cat spend the day?</label>
+<textarea id="day-place" name="day-place"></textarea>
+</fieldset>
+
+<fieldset>
+<legend>Comment</legend>
+<label for="comment-foster">Anything else we need to be aware of?</label>
+<textarea id="comment-foster" name="comment-foster"></textarea>
+</fieldset>
+
+<input type="submit" value="Submit Form">
+
+</form>
+
+</main>
+
+<aside class="leftsidebar">
+
+<h2>Page Menu</h2>
+
+<ul>
+<li><a href="#beginnings">How 9 Lives Began in Oxford, MS</a></li>
+<li><a href="#volunteer">Want to Help 9 Lives?</a>
+	<ul>
+	<li><a href="#spay-day">Spay Day</a></li>
+	<li><a href="#monitor">Monitoring Traps</a></li>
+	<li><a href="#guardian">Guardian for Feral Colony</a></li>
+	<li><a href="#petsmart">Petsmart Kitties Care</a></li>
+	<li><a href="#foster">Fostering</a></li>
+	<li><a href="#foster-application">Foster Application</a></li>
+	</ul>
+	</li>
+</ul>
+
+</aside>
+
+<footer class="site-footer">
+
+  <?php include('includes/footer.php');?>
+
+</footer>
+	
+</div> <!-- end of container div -->
+</html>

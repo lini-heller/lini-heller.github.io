@@ -1,0 +1,198 @@
+<?php include('includes/process.php');?>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Forms: Fantastic Feral Felines</title>
+  <meta name="description" content="Access TNR Information and request TNR assistance.">
+  <link rel="stylesheet" media="screen" href="css/style.css">
+  <link rel="stylesheet" media="print" href="css/print.css">
+</head>
+
+<div class="container">
+
+<header class="banner">
+
+<h1>Fantastic Feral Felines</h1>
+
+<img src="images/catsrow100x57.jpg" width="100" height="57" alt="Silhouette of cat behind two smaller cats.">
+
+</header>
+
+<nav class="mainmenu">
+   <ul>
+      <li><a href="index.php">HOME</a></li>
+      <li><a href="aboutus.php">ABOUT US</a></li>
+	  <li><a href="9livesinfo.php">9 LIVES</a></li>
+	  <li><a href="resources.php">RESOURCES</a></li>
+	  <li><a href="tnrinfo.php">TNR INFO</a></li>
+	  <li><a href="adoption.php">CAT ADOPTION</a></li>
+   </ul>
+</nav>
+
+<main>
+
+<h2>TNR Info and Assistance</h2>
+
+<h3 id="tnr">Trap-Neuter-Return (TNR)</h3>
+
+<p>As mentioned above, 9 Lives uses the trap-neuter-return method to control stray and feral cat populations. We only trap with humane animal traps that are baited with sardines. All traps are equipped with After successfully trapping a kitty, we cover the trap with a towel, blanket or similar cloth because it will keep the cat calmer in the trap. All cats are then delivered to participating veterinarians who donate their services or at least charge less. During the neuter surgery while under anesthesia--females are spayed and males neutered--each cat receives an ear tip. This is done so that one can recognize from afar whether a cat has already been neutered. Thereafter, each cat is taken to a rescuers house and recovers from the surgery. Then the cat is returned to its trapping location.</p>
+	<h4>The Ear Tip</h4>
+		<p>The ear tip is done during the spay/neuter surgery while the cat is under anesthesia by removing a the tip of the left ear. This does not impact any of their hearing and heals very quickly while the cat is recovering from the actual surgery. While some organizations use belly tattoos, the method of using the left ear tip ensures that a cat is not trapped again needlessly as on can see the mark without having to trap the cat and take it to the vet. It saves the feral stress in the future as it is unlikely to be trapped again and saves the rescuer's time. </p>
+	<h4>Recovery</h4>
+		<p>Recovery after the spay or neuter surgery usually happens quite fast. Mainly, cats are unable to control their body temperatures after surgery and may still be woozy from the anesthesia. Therefore, it is important to keep them in a warm, confined, and quiet place. Restricting a cats movements to only the space of a dog kennel will help the incisions to stay closed. Non-clumping litter--like paper or pine--should be used. Females should be kept for 3 days unless the wound opens, there is bleeding or other complications arise. Males can be returned to their location after a day.</p>
+	<h4>Return, not release</h4>
+		<p>The "R" in TNR stands for "return," not "release". This distinction is very important because ferals should not simply be released anywhere but need to be returned to the location that they where trapped. Returning them to their original location means returning them into their familiar territory and habitat. It is where they know their shelter and food sources.</p>
+
+
+<h3 id="tnr-assistance">Request for TNR Assistance</h3>
+
+<p>Fill in the form below to request assistance for TNR for any community, stray, or feral cats.</p>
+
+<?php print $formMessage;?>
+<form method="post">
+
+<fieldset>
+
+<legend>Your Contact Information</legend>
+
+<label for="first-name">First Name</label>
+<input id="first-name" name="first-name" type="text" required>
+<label for="last-name">Last Name</label>
+<input id="last-name" name="last-name" type="text" required>
+<label for="street-address">Street Address</label>
+<input id="street-address" name="street-address" type="text" required>
+<label for="city">City</label>
+<input id="city" name="city" type="text" required>
+<label for="zip-code">Zip/Postal Code</label>
+<input id="zip-code" name="zip-code" type="text" required>
+<label for="state">State/Province</label>
+<input id="state" name="state" type="text" required>
+<label for="county">County</label>
+<input id="county" name="county" type="text" required>
+<label for="phone-number">Phone Number</label>
+<input id="phone-number" name="phone-number" type="text" required>
+<label for="email">Email</label>
+<input id="email" name="email" type="text" required>
+
+</fieldset>
+
+<fieldset>
+
+<legend>Cat Information</legend>
+
+<p class="text-legend">How many cats need to be fixed and what are their genders? If you don't know, use the third option.</p>
+
+<label for="number-cats-female">Number of female cats</label>
+<select id="number-cats-female" name="number-cats-female">
+	<option value="0">0</option>
+	<option value="1">1</option>
+	<option value="2">2</option>
+	<option value="3">3</option>
+	<option value="4">4</option>
+	<option value="5">5</option>
+	<option value="6">6</option>
+	<option value="7">7</option>
+	<option value="8">8</option>
+	<option value="9">9</option>
+	<option value="10">10</option>
+</select>
+
+<label for="number-cats-male">Number of male cats</label>
+<select id="number-cats-male" name="number-cats-male">
+	<option value="0">0</option>
+	<option value="1">1</option>
+	<option value="2">2</option>
+	<option value="3">3</option>
+	<option value="4">4</option>
+	<option value="5">5</option>
+	<option value="6">6</option>
+	<option value="7">7</option>
+	<option value="8">8</option>
+	<option value="9">9</option>
+	<option value="10">10</option>
+</select>
+
+<label for="number-cats">Number of cats with unknown gender</label>
+<select id="number-cats" name="number-cats">
+	<option value="0">0</option>
+	<option value="1">1</option>
+	<option value="2">2</option>
+	<option value="3">3</option>
+	<option value="4">4</option>
+	<option value="5">5</option>
+	<option value="6">6</option>
+	<option value="7">7</option>
+	<option value="8">8</option>
+	<option value="9">9</option>
+	<option value="10">10</option>
+</select>
+
+</fieldset>
+
+<fieldset>
+<legend>Are you on government assistance?</legend>
+
+<label>Yes<input type="radio" name="government-assistance" value="yes"></label>
+
+<label>No<input type="radio" name="government-assistance" value="no"></label>
+</fieldset>
+
+<fieldset>
+
+<legend>Instructions and Agreements</legend>
+
+<p class="text-legend">Animals have to be in <em>plastic or fabric crates, traps, or cages</em>, absolutely <em>no cardboard carriers</em>! Your carrier must be lined with a throw-away towel in the bottom, in case of any accidents happen. Remove food at 10 pm the night before surgery, they can have access to water but not to food. No food on morning of surgery, animals must have an empty stomach. If they happen to eat anything on surgery day let us know, we can work around it. 
+Meeting point to be determined as 9LCR works with several clinics. On the day of surgery cat(s) need to be dropped off between 8-8:30 am. Pick up between 4:30-5pm in OXFORD. 
+Please check all boxes to acknowledge these important rules:</p>
+
+<label for="carrier">only plastic/fabric crates, traps, cages</label>
+<input type="checkbox" id="carrier" name="agreements[]" value="carrier" required>
+
+<label for="towel-carrier">throw-away towel in bottom of carrier</label>
+<input type="checkbox" id="towel-carrier" name="agreements[]" value="towel-carrier" required>
+
+<label for="no-food">no food after 10pm the night before surgery</label>
+<input type="checkbox" id="no-food" name="agreements[]" value="no-food" required>
+
+<label for="inform-food">let us know if cat did eat on day of surgery</label>
+<input type="checkbox" id="inform-food" name="agreements[]" value="inform-food" required>
+
+<label for="drop-off">drop off between 8-8:30am in Oxford</label>
+<input type="checkbox" id="drop-off" name="agreements[]" value="drop-off" required>
+
+<label for="pick-up">pick up between 4:30-5pm in Oxford</label>
+<input type="checkbox" id="pick-up" name="agreements[]" value="pick-up" required>
+</fieldset>
+
+<fieldset>
+<legend>Questions and Comments</legend>
+<label for="questions-comments">Questions, Comments, anything else we need to be aware of?</label>
+<textarea id="questions-comments" name="questions-comments"></textarea>
+</fieldset>
+
+<input type="submit" value="Submit Form">
+
+</form>
+</main>
+
+<aside class="leftsidebar">
+
+<h2>Page Menu</h2>
+
+<ul>
+<li><a href="#tnr">TNR Explained</a></li>
+<li><a href="#tnr-assistance">Request TNR Assistance</a></li>
+</ul>
+
+</aside>
+
+<footer class="site-footer">
+
+  <?php include('includes/footer.php');?>
+
+</footer>
+	
+</div> <!-- end of container div -->
+</html>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+<xsl:output method="html" indent="yes" encoding="UTF-8"/>
+<xsl:template match="/">
+
+<table class="inventory">
+	<caption>Cat Inventory</caption>
+
+	<thead>
+		<tr>
+			<th>Name</th>
+			<th>Age</th>
+			<th>Gender</th>
+			<th>Breed</th>
+			<th>Color</th>
+			<th>Markings</th>
+			<th>Eyes</th>
+		</tr>
+	</thead>
+	
+	<tbody>
+		<xsl:for-each select="inventory/cat">
+		
+	<tr>
+		<td><xsl:value-of select="name"/></td>
+		<td><xsl:value-of select="age"/></td>
+		<td><xsl:value-of select="gender"/></td>
+		<td><xsl:value-of select="breed"/></td>
+		<td><xsl:value-of select="color"/></td>
+		<td><xsl:value-of select="markings"/></td>
+		<td><xsl:value-of select="eyes"/></td>
+	</tr>
+		</xsl:for-each>
+	</tbody>
+
+	<tfoot>
+		<tr>
+			<td colspan="7">Source: 9 Lives Records</td>
+		</tr>
+	</tfoot>
+</table>
+
+</xsl:template>
+</xsl:stylesheet>

@@ -1,0 +1,297 @@
+<?php include('includes/processadopt.php');?>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fantastic Feral Felines: My Life with 7 Cats and 9 Lives Cat Rescue </title>
+  <meta name="description" content="See a table of adoptable cats from 9 Lives with their features and the adoption application.">
+  <link rel="stylesheet" media="screen" href="css/style.css">
+  <link rel="stylesheet" media="print" href="css/print.css">
+</head>
+
+<div class="container">
+
+<header class="banner">
+
+<h1>Fantastic Feral Felines</h1>
+	
+<img src="images/catsrow100x57.jpg" width="100" height="57" alt="Silhouettes of a bigger cat behind two smaller cats.">
+
+</header>
+
+<nav class="mainmenu">
+   <ul>
+      <li><a href="index.php">HOME</a></li>
+      <li><a href="aboutus.php">ABOUT US</a></li>
+	  <li><a href="9livesinfo.php">9 LIVES</a></li>
+	  <li><a href="resources.php">RESOURCES</a></li>
+	  <li><a href="tnrinfo.php">TNR INFO</a></li>
+	  <li><a href="adoption.php">CAT ADOPTION</a></li>
+   </ul>
+</nav>
+
+<main>
+
+<h2 id="adoptable">Rescues and Adoptable Cats</h2>
+<p>Some of our 9 Lives kitties find a temporary home with our amazing fosters, while some hang out for a time at Petsmart in Oxford, MS. At Petsmart they are with other cats and get regular play and cuddle time from our volunteers who also come in to clean their cages <a href="9livesinfo.php#petsmart">Petsmart Volunteer Opportunity</a>. Below is our current inventory of adoptable cats that have all been neutered, received their inital vaccinations, and are up-to-date with their flea and tick prevention.</p>
+ 
+<div style="overflow-x:auto;">
+<?php
+
+	$xml = new DOMDocument;
+	$xml->load('xml/inventory.xml');
+	
+	$xsl = new DOMDocument;
+	$xsl->load('xml/inventory.xsl');
+	
+	$process = new XSLTProcessor;
+	$process->importStyleSheet($xsl);
+	
+	echo $process->transformToXML($xml);
+	
+?>
+</div>
+
+<h2 id="adoption-application">Application for Adoption</h2>
+
+<p>Many factors go into determining which applicant will be matched with a particular animal. If you are not chosen for this pet, it does not mean that you are not considered a good pet owner or that your home is not acceptable. Our goal is to place each animal in the home that will best suit its needs.</p>
+
+<p>Please be aware: These applications are processed by volunteers who have full time jobs and families. It may take from 2-7 days to hear back from someone about your application. If we are unable to reach you by phone, we may send an email - so please check your junk mail or spam folders in case those responses end up there. Thank you for your patience and consideration of our volunteers.</p>
+
+<p>Statement: The majority of our adoptable cats have not been tested for FIV or FelV.</p>
+
+<p>You must be at least 21 years old to adopt as the adoption contract is a legal document.</p>
+
+<?php print $formMessage;?>
+<form method="post">
+
+<fieldset>
+<legend>Your Contact Information</legend>
+
+<label for="ad-first-name">First Name</label>
+<input id="ad-first-name" name="ad-first-name" type="text" required>
+<label for="ad-last-name">Last Name</label>
+<input id="ad-last-name" name="ad-last-name" type="text" required>
+<label for="ad-street-address">Street Address</label>
+<input id="ad-street-address" name="ad-street-address" type="text" required>
+<label for="ad-city">City</label>
+<input id="ad-city" name="ad-city" type="text" required>
+<label for="ad-zip-code">Zip/Postal Code</label>
+<input id="ad-zip-code" name="ad-zip-code" type="text" required>
+<label for="ad-state">State/Province</label>
+<input id="ad-state" name="ad-state" type="text" required>
+<label for="ad-county">County</label>
+<input id="ad-county" name="ad-county" type="text" required>
+<label for="ad-phone-number">Phone Number</label>
+<input id="ad-phone-number" name="ad-phone-number" type="text" required>
+<label for="ad-email">Email</label>
+<input id="ad-email" name="ad-email" type="text" required>
+</fieldset>
+
+<fieldset>
+<legend>Which cat(s) do you want to adopt?</legend>
+
+<label for="cat-name">Cat's name or cats' names</label>
+<input id="cat-name" name="cat-name" type="text" required>
+
+<p class="text-legend">A cat may live up to 20 years. Do you understand that you are making a commitment to care for this animal for that length of time?</p>
+
+<label>Yes <input type="radio" name="commitment" value="yes"></label>
+<label>No <input type="radio" name="commitment" value="no"></label>
+</fieldset>
+
+<fieldset>
+<legend>What is your age group?</legend>
+<label>0-20 years <input type="radio" name="age-group-ad" value="0to20"></label>
+<label>21-25 years <input type="radio" name="age-group-ad" value="21to25"></label>
+<label>26-35 years <input type="radio" name="age-group-ad" value="26to35"></label>
+<label>36-59 years <input type="radio" name="age-group-ad" value="36to59"></label>
+<label>60+ years <input type="radio" name="age-group-ad" value="60+"></label>
+</fieldset>
+
+<fieldset>
+<legend>Who do you live with? Choose all that apply</legend>
+<label for="parents">parents</label>
+<input type="checkbox" id="parents" name="ad-livingconditions[]" value="parents">
+<label for="children">children</label>
+<input type="checkbox" id="children" name="ad-livingconditions[]" value="children">
+<label for="roommates">roommates</label>
+<input type="checkbox" id="roommates" name="ad-livingconditions[]" value="roommates">
+<label for="significant-other">Significant other/spouse</label>
+<input type="checkbox" id="significant-other" name="ad-livingconditions[]" value="significant-other">
+<label for="other-pets">Other pets</label>
+<input type="checkbox" id="other-pets" name="ad-livingconditions[]" value="other-pets">
+<label for="alone">Alone</label>
+<input type="checkbox" id="alone" name="ad-livingconditions[]" value="alone">
+</fieldset>
+
+<fieldset>
+<legend>Pet Allergies</legend>
+<label for="allergies-ad">Do any household members suffer from pet allergies?</label>
+<select name="allergies-ad" id="allergies-ad">
+    <option value="">--Please choose an option--</option>
+    <option value="no">No</option>
+    <option value="cat">Cat</option>
+    <option value="dog">Dog</option>
+    <option value="catanddog">Cat and Dog</option>
+</select>
+</fieldset>
+
+<fieldset>
+<legend>Home Type</legend>
+<label for="home">What kind of home do you live in?</label>
+<select id="home" name="home">
+	<option value="">--Please choose an option--</option>
+	<option value="singlefamily">Single Family</option>
+	<option value="duplex">Duplex</option>
+	<option value="apartment">Apartment</option>
+	<option value="townhouse">Townhouse</option>
+	<option value="condominium">Condominium</option>
+	<option value="mobilehome">Mobile Home</option>
+	<option value="militaryhousing">Military Housing</option>
+</select>
+</fieldset>
+
+<fieldset>
+<legend>Do you rent or own your home?</legend>
+<label>Rent <input type="radio" name="rent-or-own" value="rent"></label>
+<label>Own <input type="radio" name="rent-or-own" value="own"></label>
+</fieldset>
+
+<fieldset>
+<legend>If renting, please provide the phone number of your landlord/landlady?</legend>
+<label for="landlord-number">Landlord's/landlady's Phone Number</label>
+<input id="landlord-number" name="landlord-number" type="text">
+</fieldset>
+
+<fieldset>
+<legend>Extra Security Deposit for Pets Required? (no/I don't know/yes/$ amount)</legend>
+<label for="security-deposit">Security Deposit</label>
+<input id="security-deposit" name="security-deposit" type="text">
+</fieldset>
+
+<fieldset>
+<legend>Employed?</legend>
+<label>Yes <input type="radio" name="ad-employed" value="yes"></label>
+<label>No <input type="radio" name="ad-employed" value="no"></label>
+</fieldset>
+
+<fieldset>
+<legend>Employment Information</legend>
+<label for="place-employment">If employed, place of employment(company name/City/State/Position).</label>
+<textarea id="place-employment" name="If employed, place of employment(company name/City/State/Position)"></textarea>
+</fieldset>
+
+<fieldset>
+<legend>Your Pet(s) History</legend>
+<label for="number-pets-past">Number of pets owned in the past?</label>
+<select id="number-pets-past" name="number-pets-past">
+	<option value="0">0</option>
+	<option value="1">1</option>
+	<option value="2">2</option>
+	<option value="3">3</option>
+	<option value="4">4</option>
+	<option value="5+">5+</option>
+</select>
+
+<label for="pet-history">Please list your present and past pets, starting with the most recent first. Include: Name of Pet, Current Pet, Breed/Type, Age, Sex, Spayed/Neutered, If no longer owned what happened to the pet?</label>
+<textarea id="pet-history" name="past-present-pets"></textarea>
+
+<label for="pet-surrender">Have you ever sold, given away, or surrendered a pet to a shelter? If Yes, please describe the circumstances. If No, please type No into the box.</label>
+<textarea id="pet-surrender" name="pet-surrender"></textarea>
+</fieldset>
+
+<fieldset>
+<legend>Reason(s) for wanting cat (check all that apply):</legend>
+
+<label for="gift">Gift</label>
+<input type="checkbox" id="gift" name="ad-arrangements[]" value="gift">
+<label for="barn-cat">Barn Cat</label>
+<input type="checkbox" id="barn-cat" name="ad-arrangements[]" value="barn-cat">
+<label for="breeding">Breeding</label>
+<input type="checkbox" id="breeding" name="ad-arrangements[]" value="breeding">
+<label for="mouser">Mouser</label>
+<input type="checkbox" id="mouser" name="ad-arrangements[]" value="mouser">
+<label for="for-children">For Children</label>
+<input type="checkbox" id="for-children" name="ad-arrangements[]" value="for-children">
+<label for="companionship">Companionship</label>
+<input type="checkbox" id="companionship" name="ad-arrangements[]" value="companionship">
+<label for="replacement">Replacement of deceased pet</label>
+<input type="checkbox" id="replacement" name="ad-arrangements[]" value="replacement">
+<label for="other">Other</label>
+<input type="checkbox" id="other" name="ad-arrangements[]" value="other">
+</fieldset>
+
+<fieldset>
+<legend>Arrangements for Cat</legend>
+<label for="indoor-outdoor">Where will this cat live?</label>
+<select id="indoor-outdoor" name="indoor-outdoor">
+	<option value="indoor">Indoor only</option>
+	<option value="outdoor">Outdoor only</option>
+	<option value="in-and-out">Indoor and Outdoor</option>
+</select>
+
+<label for="vacation-stay">Who will care for this cat when you have to leave (vacation/ holiday/ hospital/ assisted living)?</label>
+<textarea id="vacation-stay" name="vacation-stay"></textarea>
+
+<label for="behavior-issues-one">How will you handle clawing of furniture, carpets, curtains, etc.?</label>
+<textarea id="behavior-issues-one" name="behavior-issues-one"></textarea>
+
+<label for="behavior-issues-two">How will you handle elimination outside of the litter box or designated potty area, howling, excessive meowing, etc. should any of these issues arise? Please understand many of these actions are common during the first few weeks as the new pet adjusts to your home.</label>
+<textarea id="behavior-issues-two" name="behavior-issues-two"></textarea>
+
+<label for="vet">Name, Address, phone number of your current veterinarian. If none, veterinarian you plan to use:</label>
+<textarea id="vet" name="vet"></textarea>
+
+<label for="willing-expenses">In order to provide for any necessary medical care and nutritional requirements for this animal, I am willing to spend yearly:</label>
+<input id="willing-expenses" name="willing-expenses" type="text">
+
+<label for="flea-preventative">If you currently have a dog/cat, what are you using as flea preventative?</label>
+<input id="flea-preventative" name="flea-preventative" type="text">
+</fieldset>
+
+<fieldset>
+<legend>Would you agree to a 9 LIVES CAT RESCUE representative visiting your home to check on the animal you are adopting?</legend>
+<label>Yes <input type="radio" name="home-visit" value="yes"></label>
+<label>No <input type="radio" name="home-visit" value="no"></label>
+</fieldset>
+
+<fieldset>
+<legend>Signatures</legend>
+<label for="info-release">By typing here my name and email address below, I specifically agree that my veterinarian and landlord may release information to 9 Lives Cat Rescue before and after adoption.</label>
+<textarea id="info-release" name="info-release"></textarea>
+
+<label for="sign-application">By entering my email address here I sign this application, I hereby swear that the answers given by me are true and complete to the best of my knowledge</label>
+<textarea id="sign-application" name="sign-application"></textarea>
+</fieldset>
+
+<input type="submit" value="Submit Form">
+
+</form>
+
+<p id="demo">See what else could be here and what could be yours after submitting your application.</p>
+
+<button type="button" onclick='document.getElementById("demo").innerHTML = "=^.^="'>Just click here!</button>
+
+</main>
+
+<aside class="leftsidebar">
+
+<h2>Page Menu</h2>
+
+<ul>
+<li><a href="#adoptable">Our Adoptable Cats</a></li> 
+<li><a href="#adoption-application">Adoption Application</a></li>
+</ul>
+
+</aside>
+
+<footer class="site-footer">
+
+  <?php include('includes/footer.php');?>
+
+</footer>
+	
+</div> <!-- end of container div -->
+</html>

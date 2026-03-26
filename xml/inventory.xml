@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<inventory>
+	<cat>
+		<name>Puma</name>
+		<age>7 years</age>
+		<gender>female</gender>
+		<breed>American shorthair</breed>
+		<color>black</color>
+		<markings>bald patch</markings>
+		<eyes>yellow</eyes>
+	</cat>
+	<cat>
+		<name>Alfred</name>
+		<age>2 years</age>
+		<gender>male</gender>
+		<breed>Siamese</breed>
+		<color>cream</color>
+		<markings>seal point</markings>
+		<eyes>blue</eyes>
+	</cat>
+	<cat>
+		<name>Bluebell</name>
+		<age>6 months</age>
+		<gender>female</gender>
+		<breed>Russian Blue</breed>
+		<color>blue-grey-black</color>
+		<markings>lavender paws</markings>
+		<eyes>green</eyes>
+	</cat>
+	<cat>
+		<name>Memphis</name>
+		<age>5 years</age>
+		<gender>male</gender>
+		<breed>American Shorthair</breed>
+		<color>white</color>
+		<markings>black cap and tail</markings>
+		<eyes>brown</eyes>
+	</cat>
+</inventory>
